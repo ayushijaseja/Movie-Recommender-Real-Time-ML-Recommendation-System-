@@ -9,6 +9,7 @@ An end-to-end machine learning project that recommends movies based on user pref
 - 💾 Model training and serialization (Pickle)
 - 🌐 Web app interface using Streamlit/Flask
 - 🛠️ Ready for deployment
+
 ---
 
 ## 🧠 How It Works
@@ -16,10 +17,12 @@ An end-to-end machine learning project that recommends movies based on user pref
 This system uses this core approach:
 
 **Content-Based Filtering**  
-  Recommends movies similar to one the user liked based on genres, cast, director, and plot, among other factors.
+ Recommends movies similar to one the user liked based on genres, cast, director, and plot, among other factors.
 
 ---
+
 ## Project Structure:
+
 movie-recommender-system/
 │
 ├── notebooks/ # Jupyter notebooks for EDA and modeling
@@ -45,16 +48,17 @@ movie-recommender-system/
 
 1. Clone the repository:
 
-git clone https://github.com/Vardaan-02/V-Recommender
-cd V-Recommender
+git clone https://github.com/ayushijaseja/Movie-Recommender-Real-Time-ML-Recommendation-System-.git
+cd main
 
 2. Install dependencies
-pip install -r requirements.txt
+   pip install -r requirements.txt
 
-3. Dataset 
-Uses the TMDB 5000 movies dataset, available on kaggle: https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata
+3. Dataset
+   Uses the TMDB 5000 movies dataset, available on kaggle: https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata
 
 ## Future Scope
+
 1. Create login and signup functionality.
 2. Add rating and feedback mechanism.
 3. Personalized recommendations using collaborative filtering.
